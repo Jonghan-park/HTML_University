@@ -310,5 +310,11 @@ h3{
 .cta h1{
     color: #fff;
     margin-bottom: 40px;
-    
+    padding: 0;
+}
+
+@media(max-width: 700){
+    .cta h1{
+        font-size: 24px;
+    }
 }
